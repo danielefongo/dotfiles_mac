@@ -11,6 +11,7 @@
     ~/.startup: conf/dots/.startup
     ~/.aliases: conf/dots/.aliases
     ~/.gitconfig: conf/dots/.gitconfig
+    ~/.gitignore_global: conf/dots/.gitignore_global
     ~/.hyper.js: conf/dots/.hyper.js
     ~/.zshrc: conf/dots/.zshrc
     ~/.config/nvim/init.vim: conf/dots/.vimrc
