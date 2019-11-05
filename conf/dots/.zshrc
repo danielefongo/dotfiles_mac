@@ -15,6 +15,8 @@ if [[ -f "$HOME/.custom_aliases" ]]; then
   source "$HOME/.custom_aliases"
 fi
 
+source ~/.zfunc/*
+
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
