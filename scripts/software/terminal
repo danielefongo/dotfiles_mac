@@ -20,6 +20,9 @@ if ! type "git" > /dev/null; then
   brew_install git
 fi
 
+# hub
+brew_install hub
+
 # tig
 brew_install tig
 
