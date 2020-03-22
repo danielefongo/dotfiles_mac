@@ -1,4 +1,4 @@
 #!/bin/bash
 
-# brave
-cask_install brave-browser
+# firefox
+cask_install firefox
