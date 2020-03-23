@@ -20,6 +20,7 @@
     ~/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings: 'conf/dots/sublime/Preferences.sublime-settings'
     ~/Library/Application Support/Sublime Text 3/Installed Packages/Package Control.sublime-package: 'conf/dots/sublime/Package Control.sublime-package'
     ~/Library/Application Support/Sublime Text 3/Installed Packages/Package Control.sublime-settings: 'conf/dots/sublime/Package Control.sublime-settings'
+    ~/Library/Application Support/Spectacle/Shortcuts.json: conf/dots/spectacle/shortcuts.json
 
 - shell: 
   - [sh scripts/osx]
