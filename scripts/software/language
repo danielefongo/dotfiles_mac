@@ -4,3 +4,9 @@
 cask_install adoptopenjdk/openjdk/adoptopenjdk8
 brew_install maven
 brew_install gradle
+
+# node
+brew_install node
+
+# elixir
+brew_install elixir

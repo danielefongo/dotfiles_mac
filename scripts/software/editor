@@ -9,6 +9,7 @@ cask_install intellij-idea-ce
 # visual studio code
 cask_install visual-studio-code
 code --install-extension akamud.vscode-theme-onedark
+code --install-extension mjmcloug.vscode-elixir
 
 # neovim
 brew_install neovim
