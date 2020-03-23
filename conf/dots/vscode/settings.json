@@ -6,5 +6,6 @@
     "editor.cursorStyle": "line-thin",
     "editor.fontLigatures": true,
     "editor.autoIndent": true,
-    "window.zoomLevel": 0
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Atom One Dark"
 }
