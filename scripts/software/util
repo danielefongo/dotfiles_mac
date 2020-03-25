@@ -24,3 +24,6 @@ cask_install mos
 defaults write com.caldis.Mos reverse 0
 defaults write com.caldis.Mos step 40
 defaults write com.caldis.Mos duration 4.3
+
+# docker
+cask_install docker
