@@ -25,4 +25,4 @@
   - [sh scripts/osx]
   - [sh scripts/brew]
   - [sh scripts/startup]
-  - [sh scripts/install]
+  - [sh scripts/customizations]

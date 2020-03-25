@@ -1,0 +1,59 @@
+# taps
+tap "homebrew/cask-fonts" || true
+
+# cask
+brew "cask"
+cask_args appdir: "/Applications"
+
+# browsers
+cask "firefox"
+
+# editors
+cask "sublime-text"
+cask "intellij-idea-ce"
+cask "visual-studio-code"
+brew "neovim"
+
+# fonts
+cask "font-fira-code"
+cask "font-source-code-pro"
+
+# languages
+cask "adoptopenjdk/openjdk/adoptopenjdk8"
+brew "maven"
+brew "gradle"
+brew "node"
+brew "elixir"
+
+# socials
+cask "telegram-desktop"
+cask "slack"
+
+# terminal
+cask "iterm2"
+brew "zsh"
+brew "antigen"
+brew "git"
+brew "hub"
+brew "tig"
+brew "diff-so-fancy"
+brew "autojump"
+brew "git-extras"
+brew "the_silver_searcher"
+brew "tree"
+brew "bat"
+brew "tldr"
+brew "rmtrash"
+brew "jq"
+
+# ui
+cask "dozer"
+cask "flux"
+
+# utils
+cask "spectacle"
+cask "jumpcut"
+cask "tomighty"
+cask "ngrok"
+cask "mos"
+cask "docker"

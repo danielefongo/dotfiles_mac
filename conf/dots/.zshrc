@@ -21,5 +21,8 @@ HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
 setopt appendhistory
+setopt SHARE_HISTORY
+setopt hist_ignore_space
+setopt histignoredups
 
 export HOMEBREW_NO_AUTO_UPDATE=1

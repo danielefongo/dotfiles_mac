@@ -1,13 +1,8 @@
 #!/bin/bash
 
 if ! type "brew" > /dev/null; then
-  echo ".... brew install"
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
-echo ".... updating brew"
-brew update && brew upgrade && brew cleanup || true
-
-# cask
-brew_install cask
-brew tap homebrew/cask-versions
+brew bundle --no-lock --file conf/Brewfile
+brew cleanup

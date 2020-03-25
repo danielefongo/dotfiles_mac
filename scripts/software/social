@@ -1,7 +1,0 @@
-#!/bin/bash
-
-# telegram
-cask_install telegram-desktop
-
-# slack
-cask_install slack

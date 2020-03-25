@@ -1,14 +1,31 @@
 #!/bin/bash
 
-# spectacle
-cask_install spectacle
+# visual studio code
+code --install-extension akamud.vscode-theme-onedark
+code --install-extension mjmcloug.vscode-elixir
+
+# neovim
+curl -sfLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+nvim +PlugInstall +qall
+
+# iterm
+defaults write com.googlecode.iterm2 LoadPrefsFromCustomFolder -bool true
+defaults write com.googlecode.iterm2 PrefsCustomFolder -string "$HOME/dotfiles/conf/dots/iterm2"
+
+# zsh
+sudo chsh -s $(which zsh) $(whoami)
+
+# flux
+defaults write org.herf.Flux dayColorTemp 5800
+defaults write org.herf.Flux nightColorTemp 3800
+defaults write org.herf.Flux lateColorTemp 2700
 
 # jumpcut
-cask_install jumpcut
 defaults write net.sf.Jumpcut "ShortcutRecorder mainHotkey" '{ "keyCode" = 9 ; "modifierFlags" = 1179648; }'
 
 # tomighty
-cask_install tomighty
 defaults write org.tomighty.Tomighty org.tomighty.enable_notifications 0
 defaults write org.tomighty.Tomighty org.tomighty.hotkey.start "^\\U2325\\U2318P"
 defaults write org.tomighty.Tomighty org.tomighty.hotkey.stop "^\\U2325\\U2318S"
@@ -16,14 +33,7 @@ defaults write org.tomighty.Tomighty org.tomighty.sound.play_tick_tock_during_br
 defaults write org.tomighty.Tomighty org.tomighty.sound.play_tick_tock_during_pomodoro 0
 defaults write org.tomighty.Tomighty org.tomighty.general.status_icon_time_format 1
 
-# ngrok
-cask_install ngrok
-
 # mos
-cask_install mos
 defaults write com.caldis.Mos reverse 0
 defaults write com.caldis.Mos step 40
 defaults write com.caldis.Mos duration 4.3
-
-# docker
-cask_install docker
