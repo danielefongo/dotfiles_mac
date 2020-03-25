@@ -12,7 +12,6 @@
     ~/.aliases: conf/dots/.aliases
     ~/.gitconfig: conf/dots/.gitconfig
     ~/.gitignore_global: conf/dots/.gitignore_global
-    ~/.hyper.js: conf/dots/.hyper.js
     ~/.zshrc: conf/dots/.zshrc
     ~/.zfunc: conf/dots/.zfunc
     ~/.config/nvim/init.vim: conf/dots/.vimrc
@@ -22,7 +21,7 @@
     ~/Library/Application Support/Sublime Text 3/Installed Packages/Package Control.sublime-settings: 'conf/dots/sublime/Package Control.sublime-settings'
     ~/Library/Application Support/Spectacle/Shortcuts.json: conf/dots/spectacle/shortcuts.json
 
-- shell: 
+- shell:
   - [sh scripts/osx]
   - [sh scripts/brew]
   - [sh scripts/startup]

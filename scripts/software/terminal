@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# hyper
-cask_install hyper
-
 # iterm2
 cask_install iterm2
 defaults write com.googlecode.iterm2 LoadPrefsFromCustomFolder -bool true
