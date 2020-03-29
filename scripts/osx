@@ -2,6 +2,9 @@
 
 # https://github.com/sindresorhus/mathiasbynens-dotfiles/blob/master/.osx
 
+# Install xcode
+xcode-select --install
+
 # Disable GateKeeper
 sudo spctl --master-disable
 
