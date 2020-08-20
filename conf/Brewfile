@@ -45,6 +45,10 @@ brew "bat"
 brew "tldr"
 brew "rmtrash"
 brew "jq"
+brew "ncdu"
+brew "pidof"
+brew "htop"
+brew "httpie"
 
 # ui
 cask "dozer"
