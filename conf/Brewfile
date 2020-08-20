@@ -49,6 +49,7 @@ brew "ncdu"
 brew "pidof"
 brew "htop"
 brew "httpie"
+brew "fzf"
 
 # ui
 cask "dozer"

@@ -5,7 +5,8 @@ source /usr/local/share/antigen/antigen.zsh
 antigen bundle git
 antigen bundle git-extras
 antigen bundle autojump
-antigen bundle zdharma/fast-syntax-highlighting 
+antigen bundle fzf
+antigen bundle zdharma/fast-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle danielefongo/shapeshift
 antigen apply
@@ -26,3 +27,6 @@ setopt hist_ignore_space
 setopt histignoredups
 
 export HOMEBREW_NO_AUTO_UPDATE=1
+export FZF_COMPLETION_TRIGGER=''
+bindkey '^T' fzf-completion
+bindkey '^I' $fzf_default_completion
