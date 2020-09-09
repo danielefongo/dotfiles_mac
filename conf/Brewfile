@@ -26,7 +26,7 @@ brew "node"
 brew "elixir"
 
 # socials
-cask "telegram-desktop"
+cask "telegram"
 cask "slack"
 
 # terminal
