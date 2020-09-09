@@ -56,7 +56,7 @@ cask "dozer"
 cask "flux"
 
 # utils
-cask "spectacle"
+cask "rectangle"
 cask "jumpcut"
 cask "tomighty"
 cask "ngrok"

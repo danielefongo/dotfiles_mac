@@ -3,6 +3,6 @@
 open -a dozer
 open -a jumpcut
 open -a tomighty
-open -a spectacle
+open -a rectangle
 open -a mos
 open -a flux
