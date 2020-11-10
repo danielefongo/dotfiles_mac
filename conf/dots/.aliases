@@ -1,3 +1,4 @@
 alias trash="rmtrash"
 alias vim="nvim"
 alias git="hub"
+alias events='icalbuddy -f -sc -ss "" -npn -nc -iep "title,datetime" -ps "| : |" -po "datetime,title" eventsToday+10'
