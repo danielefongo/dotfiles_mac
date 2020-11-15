@@ -1,4 +1,5 @@
 # taps
+tap "homebrew/cask" || true
 tap "homebrew/cask-fonts" || true
 
 # cask
