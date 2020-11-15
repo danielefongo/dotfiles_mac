@@ -32,7 +32,6 @@ cask "slack"
 
 # terminal
 cask "iterm2"
-brew "zsh"
 brew "antigen"
 brew "git"
 brew "hub"
