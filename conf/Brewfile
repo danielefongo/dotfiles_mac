@@ -7,7 +7,7 @@ brew "cask"
 cask_args appdir: "/Applications"
 
 # browsers
-cask "firefox"
+cask "google-chrome"
 
 # editors
 cask "sublime-text"
