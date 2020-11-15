@@ -15,7 +15,6 @@ cask "visual-studio-code"
 brew "neovim"
 
 # fonts
-cask "font-fira-code"
 cask "font-source-code-pro"
 
 # languages
