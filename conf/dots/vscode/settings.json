@@ -8,7 +8,9 @@
     "editor.autoIndent": true,
     "window.zoomLevel": 0,
     "workbench.colorTheme": "Atom One Dark",
+    "workbench.iconTheme": "material-icon-theme",
     "editor.tabSize": 2,
     "editor.trimAutoWhitespace": true,
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+    "material-icon-theme.opacity": 0.8,
 }
