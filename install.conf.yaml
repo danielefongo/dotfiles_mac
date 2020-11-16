@@ -19,6 +19,7 @@
     ~/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings: 'conf/dots/sublime/Preferences.sublime-settings'
     ~/Library/Application Support/Sublime Text 3/Installed Packages/Package Control.sublime-package: 'conf/dots/sublime/Package Control.sublime-package'
     ~/Library/Application Support/Sublime Text 3/Installed Packages/Package Control.sublime-settings: 'conf/dots/sublime/Package Control.sublime-settings'
+    ~/.config/karabiner: 'conf/dots/karabiner'
 
 - shell:
   - [sh scripts/osx]

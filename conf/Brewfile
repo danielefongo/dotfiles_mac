@@ -62,6 +62,7 @@ cask "tomighty"
 cask "ngrok"
 cask "mos"
 cask "docker"
+cask "karabiner-elements"
 
 # productivity
 brew "ical-buddy"
