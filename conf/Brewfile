@@ -3,7 +3,6 @@ tap "homebrew/cask" || true
 tap "homebrew/cask-fonts" || true
 
 # cask
-brew "cask"
 cask_args appdir: "/Applications"
 
 # browsers
