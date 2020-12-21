@@ -4,6 +4,8 @@
 code --install-extension akamud.vscode-theme-onedark
 code --install-extension pkief.material-icon-theme
 code --install-extension mjmcloug.vscode-elixir
+code --install-extension eamodio.gitlens
+code --install-extension ms-azuretools.vscode-docker
 
 # neovim
 curl -sfLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
