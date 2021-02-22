@@ -59,6 +59,7 @@ cask "ngrok"
 cask "mos"
 cask "docker"
 cask "karabiner-elements"
+cask "unclack"
 
 # productivity
 brew "ical-buddy"
