@@ -13,4 +13,8 @@
     "editor.trimAutoWhitespace": true,
     "files.trimTrailingWhitespace": true,
     "material-icon-theme.opacity": 0.8,
+    "elmLS": {
+        "elmPath": "/usr/local/bin/elm",
+        "elmFormatPath": "/usr/local/bin/elm-format"
+    }
 }
