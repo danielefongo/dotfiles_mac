@@ -16,6 +16,7 @@
     ~/.zfunc: conf/dots/.zfunc
     ~/.config/nvim/init.vim: conf/dots/.vimrc
     ~/Library/Application Support/Code/User/settings.json: 'conf/dots/vscode/settings.json'
+    ~/Library/Application Support/Code/User/keybindings.json: 'conf/dots/vscode/keybindings.json'
     ~/.config/karabiner: 'conf/dots/karabiner'
 
 - shell:
