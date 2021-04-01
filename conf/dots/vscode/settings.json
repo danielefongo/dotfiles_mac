@@ -2,6 +2,7 @@
     "files.autoSave": "onFocusChange",
     "editor.fontSize": 18,
     "editor.fontFamily": "Hasklig, medium",
+    "editor.formatOnSave": true,
     "editor.renderWhitespace": "boundary",
     "editor.cursorStyle": "line-thin",
     "editor.fontLigatures": true,
