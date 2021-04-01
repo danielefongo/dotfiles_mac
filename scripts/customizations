@@ -3,24 +3,24 @@
 # visual studio code
 code --install-extension akamud.vscode-theme-onedark
 code --install-extension pkief.material-icon-theme
-code --install-extension eamodio.gitlens
-code --install-extension ms-azuretools.vscode-docker
-code --install-extension wmaurer.change-case
+
 code --install-extension formulahendry.auto-rename-tag
 code --install-extension aaron-bond.better-comments
 code --install-extension alefragnani.bookmarks
+code --install-extension wmaurer.change-case
 code --install-extension formulahendry.code-runner
-code --install-extension kiteco.kite
+code --install-extension ms-azuretools.vscode-docker
+code --install-extension eamodio.gitlens
 code --install-extension christian-kohler.path-intellisense
 code --install-extension pnp.polacode
 code --install-extension mohsen1.prettify-json
 code --install-extension alefragnani.project-manager
 
-code --install-extension mjmcloug.vscode-elixir
 code --install-extension jakebecker.elixir-ls
 code --install-extension elmtooling.elm-ls-vscode
 code --install-extension fwcd.kotlin
 code --install-extension ms-python.python
+code --install-extension mjmcloug.vscode-elixir
 
 # neovim
 curl -sfLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
