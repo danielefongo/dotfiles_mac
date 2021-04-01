@@ -1,7 +1,7 @@
 {
     "files.autoSave": "onFocusChange",
     "editor.fontSize": 18,
-    "editor.fontFamily": "Source Code Pro, medium",
+    "editor.fontFamily": "Hasklig, medium",
     "editor.renderWhitespace": "boundary",
     "editor.cursorStyle": "line-thin",
     "editor.fontLigatures": true,

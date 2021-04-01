@@ -14,7 +14,7 @@ cask "visual-studio-code"
 brew "neovim"
 
 # fonts
-cask "font-source-code-pro"
+cask "font-hasklig"
 
 # languages
 cask "adoptopenjdk/openjdk/adoptopenjdk8"
