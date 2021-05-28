@@ -17,5 +17,9 @@
     "elmLS": {
         "elmPath": "/usr/local/bin/elm",
         "elmFormatPath": "/usr/local/bin/elm-format"
+    },
+    "elixirLS": {
+        "dialyzerEnabled": false,
+        "fetchDeps": false
     }
 }
