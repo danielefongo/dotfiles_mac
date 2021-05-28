@@ -1,5 +1,14 @@
 #!/bin/bash
 
+# asdf
+asdf plugin add java
+asdf plugin add elixir
+asdf plugin add elm
+asdf plugin add nodejs
+asdf plugin add elixir
+asdf plugin add python
+asdf install
+
 # visual studio code
 code --install-extension akamud.vscode-theme-onedark
 code --install-extension pkief.material-icon-theme

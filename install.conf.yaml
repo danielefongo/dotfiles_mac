@@ -8,6 +8,7 @@
       stdin: true
 
 - link:
+    ~/.tool-versions: conf/dots/.tool-versions
     ~/.startup: conf/dots/.startup
     ~/.aliases: conf/dots/.aliases
     ~/.gitconfig: conf/dots/.gitconfig
@@ -20,7 +21,7 @@
     ~/.config/karabiner: 'conf/dots/karabiner'
 
 - shell:
-  - [sh scripts/osx]
-  - [sh scripts/brew]
-  - [sh scripts/startup]
-  - [sh scripts/customizations]
+    - [sh scripts/osx]
+    - [sh scripts/brew]
+    - [sh scripts/startup]
+    - [sh scripts/customizations]
