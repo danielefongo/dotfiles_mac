@@ -1,26 +1,40 @@
 {
+    // --- MAIN ---
+    // files
     "files.autoSave": "onFocusChange",
-    "editor.fontSize": 18,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
+    // fonts
     "editor.fontFamily": "Hasklig, medium",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 18,
+    // format
     "editor.formatOnSave": true,
+    "editor.autoIndent": true,
+    "editor.trimAutoWhitespace": true,
+    "editor.tabSize": 2,
+    // minimap
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.showSlider": "always",
+    "editor.minimap.size": "fit",
+    // other editor
     "editor.renderWhitespace": "boundary",
     "editor.cursorStyle": "line-thin",
-    "editor.fontLigatures": true,
-    "editor.autoIndent": true,
-    "window.zoomLevel": -1,
+    "editor.find.seedSearchStringFromSelection": false,
+    // workbench
     "workbench.colorTheme": "Atom One Dark",
     "workbench.iconTheme": "material-icon-theme",
-    "editor.tabSize": 2,
-    "editor.trimAutoWhitespace": true,
-    "files.trimTrailingWhitespace": true,
+    "workbench.tree.indent": 16,
+    // window
+    "window.zoomLevel": -1,
+    // --- PLUGINS ---
     "material-icon-theme.opacity": 0.8,
-    "elmLS": {
-        "elmPath": "/usr/local/bin/elm",
-        "elmFormatPath": "/usr/local/bin/elm-format"
-    },
-    "elixirLS": {
-        "dialyzerEnabled": false,
-        "fetchDeps": false,
-        "enableTestLenses": true
-    }
+    // elmLS
+    "elmLS.elmPath": "/Users/daniele/.asdf/shims/elm",
+    "elmLS.elmFormatPath": "/usr/local/bin/elm-format",
+    // elixirLS
+    "elixirLS.dialyzerEnabled": false,
+    "elixirLS.fetchDeps": false,
+    "elixirLS.enableTestLenses": true
 }
