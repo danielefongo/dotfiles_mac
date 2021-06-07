@@ -7,7 +7,7 @@
     "editor.cursorStyle": "line-thin",
     "editor.fontLigatures": true,
     "editor.autoIndent": true,
-    "window.zoomLevel": 0,
+    "window.zoomLevel": -1,
     "workbench.colorTheme": "Atom One Dark",
     "workbench.iconTheme": "material-icon-theme",
     "editor.tabSize": 2,
