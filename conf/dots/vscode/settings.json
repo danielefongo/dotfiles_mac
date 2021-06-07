@@ -20,6 +20,7 @@
     },
     "elixirLS": {
         "dialyzerEnabled": false,
-        "fetchDeps": false
+        "fetchDeps": false,
+        "enableTestLenses": true
     }
 }
