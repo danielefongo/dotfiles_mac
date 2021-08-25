@@ -11,11 +11,7 @@ antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle danielefongo/shapeshift
 antigen apply
 
-source ~/.aliases
-if [[ -f "$HOME/.custom_aliases" ]]; then
-  source "$HOME/.custom_aliases"
-fi
-source ~/.zfunc/*
+for file in ~/.zsh/*; do source "$file"; done
 source /usr/local/opt/asdf/asdf.sh
 
 HISTFILE=~/.zsh_history
