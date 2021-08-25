@@ -3,7 +3,7 @@ export PATH="/usr/local/Cellar:$PATH"
 
 source /usr/local/share/antigen/antigen.zsh
 antigen bundle git
-antigen bundle git-extras
+antigen bundle scmbreeze/scm_breeze
 antigen bundle autojump
 antigen bundle fzf
 antigen bundle zdharma/fast-syntax-highlighting

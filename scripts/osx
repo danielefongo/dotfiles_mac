@@ -132,4 +132,3 @@ defaults write com.apple.dock orientation -string "left"
 for app in "Activity Monitor" "Dock" "Finder" "SizeUp" "SystemUIServer" "Transmission"; do
   killall "${app}" 2>/dev/null || true
 done
-
