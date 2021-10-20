@@ -22,6 +22,7 @@ code --install-extension wmaurer.change-case
 code --install-extension formulahendry.code-runner
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension eamodio.gitlens
+code --install-extension mhutchie.git-graph
 code --install-extension ms-vsliveshare.vsliveshare
 code --install-extension ms-vsliveshare.vsliveshare-audio
 code --install-extension shd101wyy.markdown-preview-enhanced
