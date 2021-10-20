@@ -28,6 +28,8 @@
     "workbench.tree.indent": 16,
     // window
     "window.zoomLevel": -1,
+    // terminal
+    "terminal.integrated.fontSize": 18,
     // --- PLUGINS ---
     "material-icon-theme.opacity": 0.8,
     // elmLS
