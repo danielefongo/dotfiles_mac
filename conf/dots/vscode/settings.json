@@ -20,7 +20,7 @@
     "editor.minimap.size": "fit",
     // other editor
     "editor.renderWhitespace": "boundary",
-    "editor.cursorStyle": "line-thin",
+    "editor.cursorWidth": 3,
     "editor.find.seedSearchStringFromSelection": false,
     // workbench
     "workbench.colorTheme": "Atom One Dark",
