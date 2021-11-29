@@ -43,6 +43,7 @@ brew "htop"
 brew "httpie"
 brew "fzf"
 brew "gpg"
+brew "cloc"
 
 # ui
 cask "dozer"
