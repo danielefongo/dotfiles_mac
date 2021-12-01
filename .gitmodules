@@ -1,3 +1,6 @@
 [submodule "dotbot"]
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
+[submodule "conf/dots/swiss-knife"]
+	path = conf/dots/swiss-knife
+	url = git@github.com:danielefongo/swiss-knife

@@ -16,6 +16,7 @@
     ~/.zsh: conf/dots/zsh
     ~/.config/nvim/init.vim: conf/dots/.vimrc
     ~/.config/karabiner.edn: conf/dots/karabiner.edn
+    ~/.hammerspoon: conf/dots/swiss-knife
     ~/Library/Application Support/Code/User/settings.json: 'conf/dots/vscode/settings.json'
     ~/Library/Application Support/Code/User/keybindings.json: 'conf/dots/vscode/keybindings.json'
 
