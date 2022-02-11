@@ -14,9 +14,10 @@
     ~/.gitignore_global: conf/dots/.gitignore_global
     ~/.zshrc: conf/dots/.zshrc
     ~/.zsh: conf/dots/zsh
-    ~/.config/nvim/init.vim: conf/dots/.vimrc
+    ~/.vimrc: conf/dots/.vimrc
     ~/.config/karabiner.edn: conf/dots/karabiner.edn
     ~/.hammerspoon: conf/dots/swiss-knife
+    ~/.doom.d: conf/dots/doom
     ~/Library/Application Support/Code/User/settings.json: 'conf/dots/vscode/settings.json'
     ~/Library/Application Support/Code/User/keybindings.json: 'conf/dots/vscode/keybindings.json'
 

@@ -10,7 +10,7 @@ cask "google-chrome"
 
 # editors
 cask "visual-studio-code"
-brew "neovim"
+cask "emacs"
 
 # fonts
 cask "font-hasklig"

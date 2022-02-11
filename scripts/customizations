@@ -42,11 +42,11 @@ code --install-extension fwcd.kotlin
 code --install-extension ms-python.python
 code --install-extension mjmcloug.vscode-elixir
 
-# neovim
-curl -sfLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-
-nvim +PlugInstall +qall
+# emacs
+if [[ ! -d "~/.emacs.d" ]]; then
+    git clone "https://github.com/hlissner/doom-emacs" ~/.emacs.d
+fi
+~/.emacs.d/bin/doom -y install
 
 # iterm
 defaults write com.googlecode.iterm2 LoadPrefsFromCustomFolder -bool true

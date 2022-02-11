@@ -3,7 +3,7 @@
   email = danielefongo@gmail.com
 [core]
   pager = "diff-so-fancy | less --tabs=4 -RFX"
-  editor = 'nvim'
+  editor = 'vim'
   excludesfile = "~/.gitignore_global"
 [pager]
   show = "diff-so-fancy | less --tabs=1,5 -RFX"
