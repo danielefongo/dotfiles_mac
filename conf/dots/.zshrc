@@ -11,7 +11,7 @@ antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle danielefongo/shapeshift
 antigen apply
 
-for file in ~/.zsh/*; do source "$file"; done
+for file in ~/.zsh/*.zsh; do source "$file"; done
 source /usr/local/opt/asdf/asdf.sh
 
 HISTFILE=~/.zsh_history
