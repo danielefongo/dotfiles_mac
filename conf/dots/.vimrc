@@ -42,3 +42,5 @@ colorscheme NeoSolarized
 set background=dark
 
 syntax enable
+
+inoremap jk <Esc>
