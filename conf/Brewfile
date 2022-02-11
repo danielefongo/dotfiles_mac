@@ -9,7 +9,6 @@ cask_args appdir: "/Applications"
 cask "google-chrome"
 
 # editors
-cask "intellij-idea-ce"
 cask "visual-studio-code"
 brew "neovim"
 
