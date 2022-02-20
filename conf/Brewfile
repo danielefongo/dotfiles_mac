@@ -18,6 +18,8 @@ cask "font-hasklig"
 # languages
 brew "asdf"
 brew "elm-format"
+brew "elixir-ls"
+brew "cmake"
 
 # socials
 cask "telegram"
